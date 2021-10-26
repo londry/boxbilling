@@ -226,6 +226,8 @@ CREATE TABLE `client` (
   `lang` varchar(10) DEFAULT NULL,
   `ip` varchar(45) DEFAULT NULL,
   `api_token` varchar(128) DEFAULT NULL,
+  `mfa_enabled` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'Multi-Factor Authentication status of client',
+  `mfa_secret` varchar(128) DEFAULT NULL COMMENT 'The secret code of Google 2FA',
   `referred_by` varchar(255) DEFAULT NULL,
   `custom_1` text,
   `custom_2` text,
