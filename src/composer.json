@@ -31,7 +31,9 @@
         "guzzlehttp/guzzle": "*",
         "laminas/laminas-httphandlerrunner": "^2.0.1",
         "docnet/tfpdf": "^2.2",
-        "nelexa/zip": "^4.0"     
+        "nelexa/zip": "^4.0",
+        "pragmarx/google2fa": "8.x-dev",
+        "bacon/bacon-qr-code": "dev-master"     
         
     },
     "suggest": {
