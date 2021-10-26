@@ -109,6 +109,8 @@ CREATE TABLE `admin` (
   `protected` tinyint(1) DEFAULT '0',
   `status` varchar(30) DEFAULT 'active' COMMENT 'active, inactive',
   `api_token` varchar(128) DEFAULT NULL,
+  `mfa_enabled` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'Multi-Factor Authentication status of admin',
+  `mfa_secret` varchar(128) DEFAULT NULL COMMENT 'The secret code of Google 2FA',
   `permissions` text,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
