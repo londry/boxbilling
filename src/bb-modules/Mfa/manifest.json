@@ -1,0 +1,8 @@
+{
+  "id":           "mfa",
+  "type":         "mod",
+  "name":         "2FA Auth",
+  "description":  "Multi-Factor Authentication for staffs and users to enhance account security",
+  "icon_url":     "icon.png",
+  "version":      "1.0.0"
+}
