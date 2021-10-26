@@ -33,7 +33,8 @@
         "docnet/tfpdf": "^2.2",
         "nelexa/zip": "^4.0",
         "pragmarx/google2fa": "8.x-dev",
-        "bacon/bacon-qr-code": "dev-master"     
+        "bacon/bacon-qr-code": "dev-master",
+        "pragmarx/google2fa-qrcode": "^3.0"     
         
     },
     "suggest": {
