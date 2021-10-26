@@ -12,6 +12,7 @@ src/bb-data/tmp.txt
 src/bb-test.php
 src/bb-vendor/*
 src/install/logs/*
+src/composer.lock
 bb-test.php
 build
 composer.phar
