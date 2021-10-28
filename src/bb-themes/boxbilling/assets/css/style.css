@@ -1414,7 +1414,7 @@ div.kb ul a{
 .dark-icon.i-sound { background-image: url('../images/small_icons/dark/sound.png');     }
 .dark-icon.i-reload { background-image: url('../images/small_icons/dark/reload.png');     }
 .dark-icon.i-boxbilling { background-image: url('../images/small_icons/dark/boxbilling.png');     }
-
+.dark-icon.i-shield {background-image: url(../images/small_icons/dark/shield.png);}
 
 .light-icon.i-blog   { background-image: url('../images/small_icons/light/blog.png');     }
 .light-icon.i-contacts   { background-image: url('../images/small_icons/light/contacts.png');     }

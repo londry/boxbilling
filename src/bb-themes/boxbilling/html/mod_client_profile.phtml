@@ -20,6 +20,7 @@
         </div>
         <ul class="tabs">
             <li><a href="#tab-details"><span class="dark-icon i-profile"></span>{% trans 'Details' %}</a></li>
+            <li><a href="#tab-2fa"><span class="dark-icon i-shield"></span>{% trans '2FA' %}</a></li>
             <li><a href="#tab-password"><span class="dark-icon i-logout"></span>{% trans 'Change Password' %}</a></li>
             <li><a href="#tab-gravatar"><span class="dark-icon i-uncheck"></span>{% trans 'Gravatar' %}</a></li>
             <li><a href="#tab-currency"><span class="dark-icon i-payment"></span>{% trans 'Currency' %}</a></li>
@@ -162,6 +163,23 @@
                         {% else %}
                             <p>{% trans 'Your profile currency will be defined after your first order. Once your currency is set, all your profile accounting will be managed in that currency and can not be changed.' %}</p>
                         {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab_content" id="tab-2fa">
+                <div class="box">
+                    <h2>{% trans 'Two-factor Authentication' %}</h2>
+                    <div class="block">
+                        <p>{% trans 'Use popular security mechanisms to add a protective cover to your account.' %}</p>
+                        <p>{% trans 'Before starting, please search and install Google Authenticator App from your mobile app store.' %}</p>
+                    </div>
+                    <div class="block">
+                        <form method="post" action="" id="enable-2fa">
+                            <fieldset>
+                                <input class="bb-button bb-button-submit" type="submit" value="{% trans 'Enable' %}">
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
